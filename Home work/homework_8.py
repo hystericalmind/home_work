@@ -5,5 +5,3 @@ for i in cars_:
 for j in cars_:
     cars_count += 10
     print('Я езжу на автомобиле марки :', j, cars_count)
-
-
