@@ -12,3 +12,4 @@ def function_one(num_1,*num_2):
 
 function_one(1, 1)
 function_one(1, 1, 1, 1)
+
