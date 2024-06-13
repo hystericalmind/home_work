@@ -2,6 +2,7 @@ class Car:
     price = 1000000
 
     def horse_powers(self, hp):
+        self.hp = hp
         print(f'HP = {hp}')
 class Nissan(Car):
     pass
