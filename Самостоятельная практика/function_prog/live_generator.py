@@ -18,7 +18,6 @@ def gen_1(operation):
         def divide(x, y):
             if y == 0:
                 raise ZeroDivisionError
-                print('Error', 'Division by zero')
             else:
                 return x / y
         return divide
