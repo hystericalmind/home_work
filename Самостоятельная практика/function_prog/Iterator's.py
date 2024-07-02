@@ -20,20 +20,26 @@ class EvenNumbers:
                     list_1.append(i)
                     continue
             return list_1
+        if self.start > self.end:
+            print('Input data error')
+            raise Exception
         if self.start == None :
             self.start = 0
             return self.start
         if self.end == None:
             self.end = 1
             return self.end
-
         raise StopIteration()
 
 
 
-result = EvenNumbers(10,25)
-test = result.__next__()
-print()
-for i in test:
-    print(i)
 
+
+
+try:
+    result = EvenNumbers(10, 25)
+    test = result.__next__()
+    for i in test:
+        print(i)
+except Exception as stop:
+    print(f' {stop}')
