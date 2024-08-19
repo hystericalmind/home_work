@@ -1,6 +1,7 @@
 import random
-
-n = random.randint(3, 20)
+#
+# n = random.randint(3, 20)
+n = 10
 
 
 result = []
